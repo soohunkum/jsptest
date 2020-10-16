@@ -24,7 +24,7 @@ public class SetNameServlet extends HttpServlet {
 		
 	}
 	
-protected void doProc(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doProc(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		session.setAttribute("name", "금수훈");
 		session.setAttribute("address", "대구");
