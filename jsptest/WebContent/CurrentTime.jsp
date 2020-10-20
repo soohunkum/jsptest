@@ -16,7 +16,9 @@
 <head>
 <meta charset="UTF-8">
 <title>현재 시각</title>
+<style>
 /* css주석 */
+</style>
 </head>
 <body>
 	<h1>현재 시간은 <%=h %>시 <%=m %>분 <%=s %>초 입니다.</h1>
