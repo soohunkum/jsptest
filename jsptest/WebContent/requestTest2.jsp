@@ -17,7 +17,7 @@
 <% Enumeration e = request.getHeaderNames();
 	while(e.hasMoreElements()){
 		String headerName=(String)e.nextElement();%>
-	<tr>
+	<tr> 
 	<td><%= headerName %></td>
 	<td><%= request.getHeader(headerName) %></td>
 	<%} %>
