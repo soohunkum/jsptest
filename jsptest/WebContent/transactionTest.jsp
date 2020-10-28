@@ -12,7 +12,7 @@
 	PreparedStatement pstmt = null;
 	ResultSet rs = null;
 	String sql = "INSERT INTO employee(id, name, salary) VALUES (4,'aaa',1000000)";
-	String sql2 = "SELECT * FROM employee WHERE id = 4";
+	String sql2 = "SELECT * FROM employee WHERE id = 55";
 	try{
 		Context init = new InitialContext();
 		DataSource ds = (DataSource) init.lookup("java:comp/env/jdbc/shopdb");
