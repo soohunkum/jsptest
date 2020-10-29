@@ -3,7 +3,7 @@
 <%
 	String id = null;
 	if((session.getAttribute("id") == null ||
-			(!((String)session.getAttribute("id")).equals("admin"))) {
+			(!((String)session.getAttribute("id")).equals("admin")))) {
 		out.println("<script>");
 		out.println("location.href = 'loginform.jsp'");
 		out.println("</script>");
