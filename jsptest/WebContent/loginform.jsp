@@ -23,7 +23,7 @@
 </style>
 </head>
 <body>
-<form name = "loginform" action = "loginProcess.jsp" method = "post">
+<form name = "loginform" action = "loginprocess.jsp" method = "post">
 <table>
 <tr>
 	<td colspan = "2" class = "td_title">
